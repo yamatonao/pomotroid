@@ -56,7 +56,7 @@
               x="0px"
               y="0px"
               viewBox="0 0 7.6 15"
-              xml:space="preserve"
+              xml:="preserve"
               height="15px"
             >
               <polygon
@@ -82,7 +82,7 @@
               x="0px"
               y="0px"
               viewBox="0 0 10.9 18"
-              xml:space="preserve"
+              xml:="preserve"
               height="15px"
               class="Icon--pause"
             >
@@ -360,12 +360,12 @@ export default {
       EventBus.$emit(arg)
     })
 
-    // Bind event listener to Space key
+    // Bind event listener to  key
     window.addEventListener(
       'keypress',
       e => {
         if (e.code === 'Space') {
-          this.toggleTimer()
+          
         }
       },
       true

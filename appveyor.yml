@@ -25,6 +25,11 @@ install:
   - yarn
   - node --version
 
+artifacts:
+  - path: build
+    name: output
+    type: zip
+
 build_script:
   - yarn build
 
